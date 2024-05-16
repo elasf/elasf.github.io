@@ -13,23 +13,14 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-Fy6S3B9q64WdZWQUiU+q4/2Lc9npb8tCaSX9FK7E8HnRr0Jz8D6OP9dO5Vg3Q9ct"
         crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="sehir.css">
 
-        <style>
-            .font{
-                font-family: 'Times New Roman', Times, serif;
-            }
-            .hrstyle{
-                width: 50%;
-                color: maroon;
-                background-color: maroon;
-            }
-        </style>
 
 </head>
 
 <body>
     <nav class="navbar navbar-expand-lg navbar-dark" style="background-color: maroon;">
-        <a class="navbar-brand" href="#">Hakkımda</a>
+        <a class="navbar-brand" href="/hakkımda/index.html">Hakkımda</a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
             aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
@@ -44,7 +35,7 @@
                     <a class="nav-link" href="#">Özgeçmiş<span class="sr-only">(current)</span></a>
                 </li>
                 <li class="nav-item active">
-                    <a class="nav-link" href="#">Şehrim<span class="sr-only">(current)</span></a>
+                    <a class="nav-link" href="/sehrim/sehrim.html">Şehrim<span class="sr-only">(current)</span></a>
                 </li>
                 <li class="nav-item active">
                     <a class="nav-link" href="#">Mirasımız<span class="sr-only">(current)</span></a>
@@ -53,7 +44,7 @@
     </nav>
 
     <div class="row">
-        <div class="col-sm mt-5 ml-5">
+        <div class="col-sm" style="margin-left: 3%; margin-top: 3%;">
             <div id="carouselExampleCaptions" class="carousel slide" data-ride="carousel">
                 <ol class="carousel-indicators">
                     <li data-target="#carouselExampleCaptions" data-slide-to="0" class="active"></li>
@@ -64,48 +55,64 @@
                     <li data-target="#carouselExampleCaptions" data-slide-to="5"></li>
                     <li data-target="#carouselExampleCaptions" data-slide-to="6"></li>
                     <li data-target="#carouselExampleCaptions" data-slide-to="7"></li>
+                    <li data-target="#carouselExampleCaptions" data-slide-to="8"></li>
                 </ol>
                 <div class="carousel-inner">
                     <div class="carousel-item active">
-                        <img src="img/cumalikizik3.jpg" class="d-block w-100" alt="...">
+                        <a href="https://uludag.edu.tr/utok9/haber/view?id=5700&title=cumalikizik" target="_blank"><img
+                                src="img/cumalikizik3.jpg" class="d-block w-100" alt="..."></a>
                         <div class="carousel-caption d-none d-md-block">
                             <h5>Cumalıkızık</h5>
-                            <p>Tarihi dokusu korunmuş, tam fotoğraf çekinmelik köy.</p>
+                            <p>Tarihi dokusu korunmuş, UNESCO Dünya Mirası listesinde, Bursa'nın en turistik yerlerinden
+                                biri.</p>
                         </div>
                     </div>
                     <div class="carousel-item">
-                        <img src="img/kozahan2.jpg" class="d-block w-100" alt="...">
+                        <a href="http://www.bursa.gov.tr/kozahan" target="_blank"><img src="img/kozahan2.jpg"
+                                class="d-block w-100" alt="..."></a>
                         <div class="carousel-caption d-none d-md-block">
                             <h5>Kozahan</h5>
                             <p>Bursa'nın ipekçilik alanındaki en ünlü ticari noktası.</p>
                         </div>
                     </div>
                     <div class="carousel-item">
-                        <img src="img/ulucami.jpg" class="d-block w-100" alt="...">
+                        <a href="http://www.bursa.gov.tr/ulucami" target="_blank"><img src="img/ulucami.jpg"
+                                class="d-block w-100" alt="..."></a>
                         <div class="carousel-caption d-none d-md-block">
                             <h5>Ulucami</h5>
                             <p>Tarihi geçmişi ve mimarisi ile dikkat çeken bir yapı.</p>
                         </div>
                     </div>
                     <div class="carousel-item">
-                        <img src="img/uludag.jpg" class="d-block w-100" alt="...">
+                        <a href="http://www.tofasanadoluarabalarimuzesi.com" target="_blank"><img src="img/tofas.jpg"
+                                class="d-block w-100" alt="..."></a>
+                        <div class="carousel-caption d-none d-md-block">
+                            <h5>TOFAŞ Anadolu Arabaları Müzesi</h5>
+                            <p>2002'de kurulmuş, Türkiye'nin ilk ve tek Anadolu arabaları müzesi.</p>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <a href="https://tr.wikipedia.org/wiki/Uludağ" target="_blank"><img src="img/uludag.jpg"
+                                class="d-block w-100" alt="..."></a>
                         <div class="carousel-caption d-none d-md-block">
                             <h5>Uludağ</h5>
                             <p>Bursa'nın en ilgi çeken sembollerinden biri.</p>
                         </div>
                     </div>
                     <div class="carousel-item">
-                        <img src="img/irgkopru.jpg" class="d-block w-100" alt="...">
+                        <a href="http://yildirim.gov.tr/irgandi-koprusu" target="_blank"><img src="img/irgkopru.jpg"
+                                class="d-block w-100" alt="..."></a>
                         <div class="carousel-caption d-none d-md-block">
                             <h5>Irgandı Köprüsü</h5>
-                            <p>Bu tarihi köprüde genelde sanat sergileri yapılır, fazla turistik olmasa da benim Bursa'ya dair en sevdiğim yerlerden biri.</p>
+                            <p>Şu an sanat sergilerine ev sahipliği yapan tarihi bir köprü.</p>
                         </div>
                     </div>
                     <div class="carousel-item">
-                        <img src="img/iskender2.jpeg" class="d-block w-100" alt="...">
+                        <a href="https://tr.wikipedia.org/wiki/İskender_kebap" target="_blank"><img
+                                src="img/iskender1.jpg" class="d-block w-100" alt="..."></a>
                         <div class="carousel-caption d-none d-md-block">
                             <h5>İskender</h5>
-                            <p>Bursa'nın en meşhur ve fikrimce en iyi yemeği.</p>
+                            <p>Bursa'nın en meşhur ve bence en iyi yemeği.</p>
                         </div>
                     </div>
                     <div class="carousel-item">
@@ -122,7 +129,7 @@
                             <p>Bursa'nın en meşhur tatlısı.</p>
                         </div>
                     </div>
-                    
+
                 </div>
                 <button class="carousel-control-prev" type="button" data-target="#carouselExampleCaptions"
                     data-slide="prev">
@@ -137,17 +144,34 @@
             </div>
         </div>
 
-        <div class="col-sm mt-5">
+        <div class="col-sm" style="margin-top: 2%;">
             <h2 class="font" style="text-align: center;"><strong>BURSA</strong></h2>
             <hr class="hrstyle">
-            <br/>
-            <p></p>
-
+            <br />
+            <p class="font"><strong>Bursa, nüfus bakımından İstanbul, Ankara ve İzmir'in ardından Türkiye'nin 4. büyük
+                    kentidir.
+                    Aynı zamanda Marmara Bölgesi'nin İstanbul'dan sonraki en büyük ikinci şehridir. </strong></p>
+            <p class="font"><strong>Ekonomik açıdan Türkiye'nin en gelişmiş kentlerinden biri olan Bursa doğal ve
+                    tarihsel
+                    zenginlikleriyle de önem taşır. Bursa'da en çok Osmanlı İmparatorluğu'nun kuruluş dönemine ilişkin
+                    tarihî eserlerin bulunmasının nedeni ise, Bursa'nın Osmanlı Devletinin ilk başkenti
+                    olmasıdır.</strong></p>
+            <p class="font"><strong>Bursa, sanayi istatistiklerine göre Türkiye'nin en büyük sanayi kenti ve otomotiv
+                    üretim
+                    merkezidir.Şehir İstanbul'dan sonra en büyük ikinci ihracatı gerçekleştirmektedir. Bursa'nın
+                    otomotiv
+                    sanayisi bakımından Türkiye tarihinde bıraktığı izler dolayısıyla TOFAŞ tarafından kent merkezine
+                    yapılan TOFAŞ Anadolu Arabaları Müzesi de kentin simgelerinden biri haline gelmiştir.</strong></p>
+            <p class="font"><strong>Bursa, Osmanlı Devleti'nin kuruluşuna şahitlik ettiğinden; şehirde gezilecek çok
+                    fazla tarihi mekan bulunmakta. Kurucular Osmangazi ve Orhangazi'nin türbeleri, Yıldırım Beyazıd'ın
+                    yaptırdığı Ulu Camii, Yeşil Türbe ve yanıbaşındaki Yeşil Camii yürüyerek keşfedebileceğiniz kadar
+                    birbirine yakın. Kapalı Çarşı'dan başlayacağınız bir yolculukla bütün bu yerleri görebilir, ardından
+                    Tophane'ye çıkıp şehir ayaklarınızın altındayken tarihi savaş toplarını inceleyebilirsiniz.</strong>
+            </p>
+            <br />
+            <hr class="hrstyle">
         </div>
     </div>
-
-
-
 </body>
 
 </html>
